@@ -1,1 +1,37 @@
-
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>About ME</title>
+        <meta charset="UTF-8">
+        <link rel = "stylesheet" href = "style.css">
+    </head>
+    <body bgcolor="#e6dbff">
+        <div>
+            <h2>Simple Introduction</h2>
+            <ul>
+                <li>南部人</li>
+                <br>
+                <li>
+                這個月剛滿 
+                <span style="background-color:#ccccba"> 20</span>
+                歲！</li>
+                <br>
+                <li>目前就讀於：
+                    <a href="https://im.mgt.ncu.edu.tw/" target="_blank">NCU MIS</a></li>
+                <br>
+                <li><strong>興趣：</strong>
+                    看漫畫、看小說、追劇、跳舞、聽音樂</li>
+            </ul>
+            <hr>
+        </div>
+        <div>
+            <button type="button" onclick="getMotto()">目前的人生座右銘？</button>
+            <p id="click"> </p>
+        </div>
+        <script>
+            function getMotto(){
+                document.getElementById("click").innerHTML = "做你喜歡的事情，就值得繼續努力下去！";
+            }
+        </script>
+    </body>
+</html>
