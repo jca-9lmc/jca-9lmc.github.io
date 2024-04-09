@@ -42,7 +42,7 @@ custom_js:
       <li>Data Transformations: The primary transformation was extracting the year from the date column for temporal analysis. Additionally, the dataset was cleaned to remove entries with incomplete date information.</li>
     </ul>
   <li>Interactivity</li>
-    <li></li>
+    <li>Tooltips: Displaying sighting details on hover.</li>
 </ol>
 
 
