@@ -45,7 +45,8 @@ custom_js:
     <li>Tooltips: Displaying sighting details on hover.</li>
 </ol>
 
-
+## Visualization 3: Seasonal Bigfoot Sightings Trend Over Years
+<vegachart schema-url="{{ site.baseurl }}/assets/json/areachart_season.json" style="width: 100%"></vegachart>
 
 <div class="left">
 {% include elements/button.html link="https://github.com/jca-9lmc/jca-9lmc.github.io/blob/main/assets/json/bfro_cleaned.json" text="The Data" %}
