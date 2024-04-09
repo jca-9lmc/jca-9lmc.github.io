@@ -18,7 +18,7 @@ custom_js:
   <li>Design Choices</li>
     <ul>
       <li>Encoding Types: The year is encoded on the x-axis as an ordinal field, and the count of sightings is encoded on the y-axis as a quantitative field.</li>
-      <li>Color Scheme: A single color is used for the bars to maintain a clear focus on the temporal distribution. The simplicity of the color scheme aids in readability and avoids unnecessary distractions.</li>
+      <li>Color Scheme: Color is used for the bars to maintain a clear focus on the temporal distribution. The simplicity of the color scheme aids in readability and avoids unnecessary distractions.</li>
       <li>Data Transformations: The primary transformation was extracting the year from the date column for temporal analysis. Additionally, the dataset was cleaned to remove entries with incomplete date information.</li>
     </ul>
   <li>Interactivity</li>
